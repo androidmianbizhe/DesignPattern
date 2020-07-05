@@ -1,4 +1,4 @@
-package org.example.pattern;
+package org.example.pattern.strategy;
 
 public class Apple implements IFruit{
 

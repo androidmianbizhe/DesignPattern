@@ -1,8 +1,7 @@
-package org.example.pattern;
+package org.example.pattern.strategy;
 
 public class Main {
 
-	
 	public static void main(String[] args) {
 		
 		Main m = new Main();
@@ -10,12 +9,9 @@ public class Main {
 		System.out.println("=======================");
 		m.eat(new Watermelon());
 	}
-	
-	
+
 	public void eat(IFruit ob){
-		
 		ob.beEaten();
-		
 	}
-	
+
 }
