@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c45a9dc-a3b0-492e-a365-5864931edf05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/observer/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/observer/Father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/observer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/observer/Mother.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/observer/OnChildListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/observer/Uncle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/chain/CustomInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/chain/DepartmentHeaderInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/chain/GroupLeaderInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/chain/Interceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/chain/ManagerInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/chain/RealChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/chain/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/chain/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/chain/TestMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pattern/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pattern/IFruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pattern/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pattern/Orange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pattern/Watermelon.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +45,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org/example/pattern" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/org/example/pattern/observer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/org/example/pattern/chain" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -47,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DEV\java\DesignPattern\src\main\java\org\example\pattern\chain" />
       <recent name="D:\DEV\java\DesignPattern\src\main\java\org\example\pattern\observer" />
       <recent name="D:\DEV\java\DesignPattern\src\main\java\org\example\pattern\strategy" />
       <recent name="D:\DEV\java\DesignPattern\src\main\java\org\example\pattern" />
@@ -97,7 +104,8 @@
       <option name="presentableId" value="Default" />
       <updated>1593948624179</updated>
       <workItem from="1593948629081" duration="3294000" />
-      <workItem from="1594044765553" duration="441000" />
+      <workItem from="1594044765553" duration="812000" />
+      <workItem from="1594131277053" duration="294000" />
     </task>
     <task id="LOCAL-00001" summary="strategy design pattern">
       <created>1593957535167</created>
@@ -106,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593957535167</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="observer design pattern">
+      <created>1594045263330</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594045263330</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,53 +129,54 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="strategy design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="strategy design pattern" />
+    <MESSAGE value="observer design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="observer design pattern" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="42" key="#Project_Structure" timestamp="1593948640375">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="233" y="42" key="#Project_Structure/0.0.1280.760@0.0.1280.760" timestamp="1593948640375" />
-    <state x="260" y="0" key="CommitChangelistDialog2" timestamp="1593957533103">
+    <state x="260" y="0" key="CommitChangelistDialog2" timestamp="1594045261090">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="260" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1593957533103" />
-    <state width="1238" height="205" key="GridCell.Tab.0.bottom" timestamp="1594045239614">
+    <state x="260" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1594045261090" />
+    <state width="1238" height="269" key="GridCell.Tab.0.bottom" timestamp="1594045582153">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="205" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1594045239614" />
-    <state width="1238" height="205" key="GridCell.Tab.0.center" timestamp="1594045239613">
+    <state width="1238" height="269" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1594045582153" />
+    <state width="1238" height="269" key="GridCell.Tab.0.center" timestamp="1594045582153">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="205" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1594045239613" />
-    <state width="1238" height="205" key="GridCell.Tab.0.left" timestamp="1594045239611">
+    <state width="1238" height="269" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1594045582153" />
+    <state width="1238" height="269" key="GridCell.Tab.0.left" timestamp="1594045582152">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="205" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1594045239611" />
-    <state width="1238" height="205" key="GridCell.Tab.0.right" timestamp="1594045239614">
+    <state width="1238" height="269" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1594045582152" />
+    <state width="1238" height="269" key="GridCell.Tab.0.right" timestamp="1594045582153">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="205" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1594045239614" />
-    <state width="1224" height="203" key="GridCell.Tab.1.bottom" timestamp="1593959574023">
+    <state width="1238" height="269" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1594045582153" />
+    <state width="1238" height="269" key="GridCell.Tab.1.bottom" timestamp="1594045582154">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1224" height="203" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1593959574023" />
-    <state width="1224" height="203" key="GridCell.Tab.1.center" timestamp="1593959574023">
+    <state width="1238" height="269" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1594045582154" />
+    <state width="1238" height="269" key="GridCell.Tab.1.center" timestamp="1594045582154">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1224" height="203" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1593959574023" />
-    <state width="1224" height="203" key="GridCell.Tab.1.left" timestamp="1593959574023">
+    <state width="1238" height="269" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1594045582154" />
+    <state width="1238" height="269" key="GridCell.Tab.1.left" timestamp="1594045582153">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1224" height="203" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1593959574023" />
-    <state width="1224" height="203" key="GridCell.Tab.1.right" timestamp="1593959574023">
+    <state width="1238" height="269" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1594045582153" />
+    <state width="1238" height="269" key="GridCell.Tab.1.right" timestamp="1594045582154">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1224" height="203" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1593959574023" />
-    <state x="234" y="117" key="Vcs.Push.Dialog.v2" timestamp="1593957540582">
+    <state width="1238" height="269" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1594045582154" />
+    <state x="234" y="117" key="Vcs.Push.Dialog.v2" timestamp="1594045267177">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="234" y="117" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1593957540582" />
+    <state x="234" y="117" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1594045267177" />
     <state x="442" y="161" key="chooseDestDirectoryDialog" timestamp="1594044846015">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
