@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c45a9dc-a3b0-492e-a365-5864931edf05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/adapter/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/adapter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/adapter/Source.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/adapter/Targetable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8c45a9dc-a3b0-492e-a365-5864931edf05" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +150,7 @@
       <workItem from="1594392947391" duration="1171000" />
       <workItem from="1594473657299" duration="1549000" />
       <workItem from="1594481730545" duration="89000" />
-      <workItem from="1594560911155" duration="392000" />
+      <workItem from="1594560911155" duration="1081000" />
     </task>
     <task id="LOCAL-00001" summary="strategy design pattern">
       <created>1593957535167</created>
@@ -207,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594475180149</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=" adapter design pattern">
+      <created>1594561395291</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1594561395291</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,84 +222,13 @@
     <MESSAGE value=" simplefactory design pattern" />
     <MESSAGE value=" singleton design pattern" />
     <MESSAGE value=" prototype design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value=" prototype design pattern" />
+    <MESSAGE value=" adapter design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value=" adapter design pattern" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="42" key="#Project_Structure" timestamp="1594473773635">
+    <state x="260" y="0" key="CommitChangelistDialog2" timestamp="1607773449854">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="233" y="42" key="#Project_Structure/0.0.1280.760@0.0.1280.760" timestamp="1594473773635" />
-    <state x="446" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1594561242856">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="446" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1594561242856" />
-    <state x="396" y="88" key="#xdebugger.evaluate" timestamp="1594475062701">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="396" y="88" key="#xdebugger.evaluate/0.0.1280.760@0.0.1280.760" timestamp="1594475062701" />
-    <state x="260" y="0" key="CommitChangelistDialog2" timestamp="1594475178414">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="260" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1594475178414" />
-    <state width="452" height="462" key="DebuggerActiveHint" timestamp="1594474906256">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="452" height="462" key="DebuggerActiveHint/0.0.1280.760@0.0.1280.760" timestamp="1594474906256" />
-    <state x="422" y="139" key="FileChooserDialogImpl" timestamp="1594481811613">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="422" y="139" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1594481811613" />
-    <state width="1238" height="283" key="GridCell.Tab.0.bottom" timestamp="1594561356470">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1238" height="283" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1594561356470" />
-    <state width="1238" height="283" key="GridCell.Tab.0.center" timestamp="1594561356470">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1238" height="283" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1594561356470" />
-    <state width="1238" height="283" key="GridCell.Tab.0.left" timestamp="1594561356470">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1238" height="283" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1594561356470" />
-    <state width="1238" height="283" key="GridCell.Tab.0.right" timestamp="1594561356470">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1238" height="283" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1594561356470" />
-    <state width="1238" height="283" key="GridCell.Tab.1.bottom" timestamp="1594475221888">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1238" height="283" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1594475221888" />
-    <state width="1238" height="283" key="GridCell.Tab.1.center" timestamp="1594475221872">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1238" height="283" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1594475221872" />
-    <state width="1238" height="283" key="GridCell.Tab.1.left" timestamp="1594475221872">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1238" height="283" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1594475221872" />
-    <state width="1238" height="283" key="GridCell.Tab.1.right" timestamp="1594475221888">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1238" height="283" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1594475221888" />
-    <state x="144" y="25" key="SettingsEditor" timestamp="1594474074579">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="144" y="25" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1594474074579" />
-    <state x="234" y="117" key="Vcs.Push.Dialog.v2" timestamp="1594475185914">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="234" y="117" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1594475185914" />
-    <state x="442" y="161" key="chooseDestDirectoryDialog" timestamp="1594044846015">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="442" y="161" key="chooseDestDirectoryDialog/0.0.1280.760@0.0.1280.760" timestamp="1594044846015" />
-    <state x="6" y="84" key="new project wizard" timestamp="1594481817712">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="6" y="84" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1594481817712" />
-    <state x="304" y="82" width="672" height="678" key="search.everywhere.popup" timestamp="1594474724674">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="304" y="82" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1594474724674" />
+    <state x="260" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1607773449854" />
   </component>
 </project>

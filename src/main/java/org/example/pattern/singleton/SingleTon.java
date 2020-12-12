@@ -10,7 +10,7 @@ public class SingleTon {
 	/**
 	 * 声明私有静态变量
 	 */
-	private static SingleTon singleIns = null;
+	private volatile static SingleTon singleIns = null;
 
 	/**
 	 * 私有化构造函数
