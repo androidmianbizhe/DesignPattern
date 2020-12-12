@@ -1,8 +1,4 @@
-package org.example.pattern.thread;
-
-import org.example.pattern.thread.threadpipe.PostRequestProcessor;
-import org.example.pattern.thread.threadpipe.PreRequestProcessor;
-import org.example.pattern.thread.threadpipe.Request;
+package org.example.pattern.thread.threadpipe;
 
 public class ThreadPipeDemo {
 
